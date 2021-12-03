@@ -32,7 +32,7 @@ fn main() {
     //     println!("{:?}", x);
     // }
 
-    println!("Output: {:?}", gamma_rate * epsilon_rate);
+    println!("Output: TODO!!! {:?}", gamma_rate * epsilon_rate);
 
     // try bit shifting instead
 }
