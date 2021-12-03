@@ -1,5 +1,4 @@
-fn main() {
-    let input = "191
+191
 185
 188
 189
@@ -1998,15 +1997,4 @@ fn main() {
 10511
 10515
 10525
-10526";
-
-    let measurments: Vec<i16> = input.lines().map(|x| x.parse::<i16>().unwrap()).collect();
-    let increases = measurments
-        .windows(4)
-        .map(|v| (v.iter().take(3).sum(), v.iter().rev().take(3).sum()))
-        .map(|(a, b): (i16, i16)| b - a)
-        .filter(|x| x > &0)
-        .count();
-
-    println!("Number of sliding-window increases: {:?}", increases);
-}
+10526
