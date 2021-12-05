@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # run with:
-# cat ../input/day04.txt | ./day04-01.py
+# cat ../input/day04.txt | ./day04-02.py
 
 import sys
 from functools import partial
@@ -29,8 +29,10 @@ def is_bingo(b):
 
     return contains_empty(bc) or contains_empty(bn)
 
+prev = -1
 magic = 0
 unsum = 0
+won = set()
 
 for n in numbers:
     for b in boards:
@@ -41,14 +43,12 @@ for n in numbers:
                     b[i][j] = None # Mark!
 
         # Check!
-        if is_bingo(b):
-            print('bingo')
+        if is_bingo(b) and prev != id(b) and id(b) not in won:
             magic = n
-            unsum = sum(filter(None, flat(b)))
-            break
-    else:
-        continue
-    break
+            unsum = sum(filter(None, flat(b.copy())))
+            prev = id(b)
+            won.add(id(b))
+
 
 # create inverted index of numbers in boards? no time
 
