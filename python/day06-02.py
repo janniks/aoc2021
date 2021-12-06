@@ -14,14 +14,9 @@ for l in input:
 # simulate
 days = 256
 for d in range(days):
-    nxt = [0] * 9
-    for n in range(9):
-        if n == 0:
-            nxt[6] += prev[0]
-            nxt[8] += prev[0]
-        else:
-            nxt[n-1] += prev[n]
-    prev = nxt
+    z = prev.pop(0)
+    prev = prev + [z]
+    prev[6] += z
 
 output = sum(prev)
 
