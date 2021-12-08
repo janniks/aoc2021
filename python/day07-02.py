@@ -3,7 +3,7 @@
 # run with:
 # cat ../input/day07.txt | ./day07-02.py
 
-import sys, math
+import sys
 from functools import partial
 from operator import sub
 
