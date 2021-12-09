@@ -20,3 +20,9 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021). Not perfect,
 |           | Part 2 |                               | [✓](python/day07-02.py) |                           |
 | **Day 8** | Part 1 |                               | [✓](python/day08-01.py) | [✓](clojure/day08-01.clj) |
 |           | Part 2 |                               | [✓](python/day08-02.py) |                           |
+| **Day 9** | Part 1 |                               | [✓](python/day09-01.py) |                           |
+|           | Part 2 |                               | [✓](python/day09-02.py) |                           |
+
+I'm trying different languages and styles in these solutions.
+They might not be perfect (or even somewhat efficient), but they teach a lot.
+Some are algorithmic and functional to a fault...
