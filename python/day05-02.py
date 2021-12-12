@@ -5,7 +5,7 @@
 
 import sys
 from functools import partial
-from operator import le, itemgetter, methodcaller as mc
+from operator import le
 
 def flat(x):
     return [z for y in x for z in y]

@@ -26,6 +26,8 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021). Not perfect,
 |            | Part 2 |                               | [✓](python/day10-02.py) |                           |
 | **Day 11** | Part 1 |                               | [✓](python/day11-01.py) |                           |
 |            | Part 2 |                               | [✓](python/day11-02.py) |                           |
+| **Day 12** | Part 1 |                               | [✓](python/day12-01.py) |                           |
+|            | Part 2 |                               | [✓](python/day12-02.py) |                           |
 
 I'm trying different languages and styles in these solutions.
 They might not be perfect (or even somewhat efficient), but they teach a lot.

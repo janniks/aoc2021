@@ -46,6 +46,8 @@ for n in numbers:
             magic = n
             unsum = sum(filter(None, flat(b)))
             break
+
+    # breaks if inner for also broke
     else:
         continue
     break
