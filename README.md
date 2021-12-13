@@ -1,4 +1,4 @@
-# [Advent of Code 2021](https://adventofcode.com/2021)
+# [Advent of Code 2021](https://adventofcode.com/2021) 🎄
 
 Solutions for [Advent of Code 2021](https://adventofcode.com/2021). Not perfect, but mine 🤷‍♂
 
@@ -28,6 +28,8 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021). Not perfect,
 |            | Part 2 |                               | [✓](python/day11-02.py) |                           |
 | **Day 12** | Part 1 |                               | [✓](python/day12-01.py) |                           |
 |            | Part 2 |                               | [✓](python/day12-02.py) |                           |
+| **Day 13** | Part 1 |                               | [✓](python/day13-01.py) |                           |
+|            | Part 2 |                               | [✓](python/day13-02.py) |                           |
 
 I'm trying different languages and styles in these solutions.
 They might not be perfect (or even somewhat efficient), but they teach a lot.
