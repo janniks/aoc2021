@@ -5,9 +5,7 @@
 
 import sys
 from collections import defaultdict, namedtuple
-from functools import partial
 from itertools import filterfalse, tee
-from operator import ge
 from typing import Counter
 
 input = list(map(lambda x: tuple(x.strip().split('-')), sys.stdin))
@@ -21,24 +19,24 @@ for start, end in input:
     segments[start].add(end)
     segments[end].add(start) # also add reverse direction
 
-paths = []
-part = namedtuple("PathPart", ['prev', 'cave'])
+Part = namedtuple("PathPart", ['previous', 'cave'])
 
-curr = [part([], 'start')]
+paths = []
+curr = [Part([], 'start')]
 while curr:
     nxt = []
     for p in curr:
-        visited_small = Counter(filter(str.islower, p.prev+[p.cave]))
+        visited_small = Counter(filter(str.islower, p.previous+[p.cave]))
         def reenterable(cave):
             if cave == 'start': return False
             if cave.isupper(): return True
             return 2 not in visited_small.values() # no duplicate small cave visit yet
 
-        no_reentry = set(filterfalse(reenterable, p.prev))
+        no_reentry = set(filterfalse(reenterable, p.previous))
         destinations = segments[p.cave] - no_reentry
-        nxt.extend(part(p.prev+[p.cave], d) for d in destinations)
+        nxt.extend(Part(p.previous+[p.cave], d) for d in destinations)
     curr, ended = partition(lambda p: p.cave == 'end', nxt)
-    paths.extend(map(lambda p: p.prev[1:], ended))
+    paths.extend(map(lambda p: p.previous[1:], ended))
 
 output = len(paths)
 
