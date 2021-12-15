@@ -33,6 +33,8 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021). Not perfect,
 | **Day 14** | Part 1 |                               | [✓](python/day14-01.py) |                           |
 |            | Part 2 |                               | [✓](python/day14-02.py) |                           |
 
+> ⌨️ Every solution has been coded using a [GergoPlex](https://www.youtube.com/watch?v=dWfQeuXDK_o) [keyboard](https://www.gboards.ca/product/gergoplex), which has been a pleasure to learn [my keymap](https://github.com/janniks/qmk_firmware/blob/master/keyboards/gboards/gergoplex/keymaps/janniks/keymap.txt) with.
+
 I'm trying different languages and styles in these solutions.
 They might not be perfect (or even somewhat efficient), but they teach a lot.
 Some are algorithmic and functional to a fault...
