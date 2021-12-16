@@ -4,6 +4,8 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021). Not perfect,
 
 > ⌨️ Every solution has been coded using a [GergoPlex](https://www.youtube.com/watch?v=dWfQeuXDK_o) [keyboard](https://www.gboards.ca/product/gergoplex), which has been a pleasure to learn [my keymap](https://github.com/janniks/qmk_firmware/blob/master/keyboards/gboards/gergoplex/keymaps/janniks/keymap.txt) with.
 
+<table><tr><td>
+
 |            |                            Rust 🦀                            |                     Python 🐍                     |         Clojure ☯️         |
 | ---------- | :-----------------------------------------------------------: | :-----------------------------------------------: | :------------------------: |
 | **Day 1**  | [1️⃣](rust/src/bin/day01-01.rs) [2️⃣](rust/src/bin/day01-02.rs) | [1️⃣](python/day01-01.py) [2️⃣](python/day01-02.py) |                            |
@@ -19,10 +21,28 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021). Not perfect,
 | **Day 11** |                                                               | [1️⃣](python/day11-01.py) [2️⃣](python/day11-02.py) |                            |
 | **Day 12** |                                                               | [1️⃣](python/day12-01.py) [2️⃣](python/day12-02.py) |                            |
 | **Day 13** |                                                               | [1️⃣](python/day13-01.py) [2️⃣](python/day13-02.py) |                            |
-| **Day 14** |                                                               | [1️⃣](python/day14-01.py) [2️⃣](python/day14-02.py) |                            |
-| **Day 15** |                                                               | [1️⃣](python/day15-01.py) [2️⃣](python/day15-02.py) |                            |
+
+</td><td>
+
+|                            | Rust 🦀 |                     Python 🐍                     | Clojure ☯️ |
+| -------------------------- | :-----: | :-----------------------------------------------: | :--------: |
+| **Day 14**                 |         | [1️⃣](python/day14-01.py) [2️⃣](python/day14-02.py) |            |
+| **Day 15**                 |         | [1️⃣](python/day15-01.py) [2️⃣](python/day15-02.py) |            |
+| **Day 16**                 |         |                                                   |            |
+| **Day 17**                 |         |                                                   |            |
+| **Day 18**                 |         |                                                   |            |
+| **Day 19**                 |         |                                                   |            |
+| **Day 20**                 |         |                                                   |            |
+| **Day 21**                 |         |                                                   |            |
+| **Day 22**                 |         |                                                   |            |
+| **Day 23**                 |         |                                                   |            |
+| **Day 24**                 |         |                                                   |            |
+| **Day 25**                 |         |                                                   |            |
+| &nbsp;&nbsp;&nbsp;&nbsp;🎄 |   🎁    |                        🎅                         |     🦌     |
+
+</td></tr></table>
 
 I'm trying different languages and styles in these solutions.
-They might not be perfect (or even somewhat efficient), but they teach a lot.
+They might not be perfect (or even somewhat efficient), but they taught me a lot.
 Some are algorithmic and functional to a fault...
 When I have less time in the evening solutions might be a weird mix between iterative/simulative and functional.
